@@ -1,0 +1,8 @@
+.Home-root {
+  padding: 24px;
+}
+
+/* simple tweaks for server info */
+.server-info p {
+  margin: 6px 0;
+}
