@@ -1,0 +1,7 @@
+@import './variables.css';
+
+nav.site-nav { padding: 12px; border-bottom: 1px solid #eee; background: transparent; }
+
+main { padding: 24px; }
+
+.centre-screen { display:flex; align-items:center; justify-content:center; }

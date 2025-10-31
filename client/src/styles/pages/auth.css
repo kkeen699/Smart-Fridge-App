@@ -1,0 +1,30 @@
+@import '../variables.css';
+
+/* Register / Login shared layout
+   Keep the original classnames (.register-container etc.) so markup
+   doesn't need changing immediately. */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+
+.auth-content {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.auth-content h1 {
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+
+.auth-description { text-align:center; color: var(--muted); margin-bottom: 32px; }
+.auth-link { text-align:center; margin-top: 24px; color: var(--muted); }
+.auth-link a { color: var(--primary); text-decoration:none; font-weight:500; }
+.auth-link a:hover { text-decoration:underline; }

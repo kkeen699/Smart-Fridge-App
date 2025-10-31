@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './Home.css';
 
 function Home() {
   const [data, setData] = useState(null);

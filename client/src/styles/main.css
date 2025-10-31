@@ -1,0 +1,13 @@
+@import './reset.css';
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+
+/* Pages */
+@import './pages/home.css';
+@import './pages/auth.css';
+
+/* Components */
+@import './components/form.css';
+
+/* Additional component/page CSS can be added here as the codebase consolidates */
